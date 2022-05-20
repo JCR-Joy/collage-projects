@@ -1,0 +1,977 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 420.98px) {
+    /*
+        ==========================
+            Menu-Part-Media-CSS
+        ==========================
+    */
+        .navbar {
+            padding: 10px;
+        }
+        .brand_logo {
+            width: 220px;
+        }
+        .navbar-brand {
+            padding: 0;
+        }
+        .navbar .navbar-toggler {
+            color: #000;
+            border: none;
+            padding: 0;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        .navbar-nav {
+            margin: 20px 0 0 0;
+            border: 1px solid #c6c0c082;
+        }
+        .nav-item{
+            margin: 10px 0;
+        }
+        .nav-link {
+            font-size: 16px;
+            margin: 0 0 0 20px;
+            padding: 0 !important;
+            line-height: 30px;
+        }
+        .nav-link::before {
+            position: static;
+        }
+        .nav-item:hover .nav-link {
+            background: none !important;
+        }
+    /*
+        ==========================
+            Menu-Part-Media-CSS
+        ==========================
+    */
+    /*
+        ==================================
+            Banner-Part-Media-CSS-Start
+        ==================================
+    */
+        .banner_slick_overlay {
+            padding: 150px 0;
+        }
+        .social_icon {
+            position: absolute;
+            top: 370px;
+            left: 50%;
+            text-align: center;
+            transform: translateX(-50%);
+        }
+        .social_icon ul li {
+            display: inline-block;
+            margin: 10px;
+        }
+        .social_icon ul li a {
+            font-size: 25px;
+            margin: 0;
+        }
+        .social_icon ul li a i {
+            width: 100%;
+            border: none;
+            padding: 0;
+        }
+        .social_icon ul li a:hover .fa-facebook {
+            border: none;
+        }
+        .social_icon ul li a:hover .fa-twitter {
+            border: none;
+        }
+        .social_icon ul li a:hover .fa-pinterest {
+            border: none;
+        }
+        .social_icon ul li a:hover .fa-youtube {
+            border: none;
+        }
+        .banner_text h1 {
+            font-size: 45px;
+        }
+        .banner_text h3 {
+            font-size: 20px;
+            width: 100%;
+        }
+        .banner_text p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            padding-bottom: 25px;
+            width: 100%;
+            margin: 0 auto;
+            line-height: 25px;
+        }
+        .banner_btn a {
+            background: #fff;
+            font-size: 15px;
+            font-weight: 600;
+            color: #2a2424;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            margin-right: 5px;
+            transition: .4s;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -ms-transition: .4s;
+            -o-transition: .4s;
+        }
+        .banner_slick_slide .slick-dots {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            top: auto;
+            right: auto;
+        }
+        .banner_slick_slide .slick-dots li {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        .banner_slick_slide ul li button {
+            height: 20px;
+            width: 20px;
+            margin-bottom: 0;
+        }
+    /*
+        =================================
+            Banner-Part-Media-CSS-End
+        =================================
+    */
+    /*
+        ================================
+            Event-Part-Media-CSS-Start
+        ================================
+    */  
+        #event {
+            padding: 20px 0 100px 0;
+        }
+        .slide_animation {
+            transform: translateY(0%);
+            -webkit-transform: translateY(0%);
+            -moz-transform: translateY(0%);
+            -ms-transform: translateY(0%);
+            -o-transform: translateY(0%);
+        }
+        .event_content {
+            background: #3b60c9;
+            padding: 15px 15px 25px 15px;
+            margin-bottom: 50px;
+        }
+        .event_img {
+            margin-bottom: 30px;
+        }
+        .event_img .event_date {
+            margin-top: 10px;
+            padding: 10px 0;
+            background: #fff;
+            box-shadow: 0 5px 6px #00000087;
+        }
+        .event_img .event_date h4 {
+            color: #3a3b3c;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .event_text .counter .event_counter_item {
+            margin-right: 10px;
+        }
+        .counter .event_counter_item h4 {
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .counter .event_counter_item h5 {
+            font-size: 14px;
+            font-weight: 700;
+            background: #161F37;
+            color: #fff;
+            padding: 10px 8px;
+            margin-top: 5px;
+            border: 1px solid #fff;
+        }
+        .counter h6 {
+            margin-top: 38px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .event_text h3 {
+            font-size: 15px;
+            margin-top: 30px;
+            padding: 0;
+        }
+        .event_text p {
+            font-size: 13px;
+            width: 100%;
+            line-height: 18px;
+            margin: 20px 0;
+        }
+        .event_btn a {
+            font-size: 13px;
+            padding: 10px;
+            font-weight: 500;
+        }
+        .event_content .event_tittle {
+            position: static;
+            top: 0;
+            right: 0;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .event_content .event_tittle h5 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #000;
+            background: #fff;
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: none;
+        }
+        /*
+            ========================
+                Event-Slick-JS-CSS
+            ========================
+        */
+            .prev {
+                background: #5481ff;
+                height: 30px;
+                width: 30px;
+                line-height: 30px;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 700;
+                color: #fff;
+                position: absolute;
+                bottom: 60px;
+                right: 45px;
+                z-index: 1111;
+                transform: translateY(-45%);
+                -webkit-transform: translateY(-45%);
+                -moz-transform: translateY(-45%);
+                -ms-transform: translateY(-45%);
+                -o-transform: translateY(-45%);
+                transition: .4s;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -ms-transition: .4s;
+                -o-transition: .4s;
+            }
+
+            .next {
+                background: #5481ff;
+                height: 30px;
+                width: 30px;
+                line-height: 30px;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 700;
+                color: #fff;
+                position: absolute;
+                bottom: 60px;
+                right: 10px;
+                z-index: 1111;
+                transition: .4s;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -ms-transition: .4s;
+                -o-transition: .4s;
+                transform: translateY(-45%);
+                -webkit-transform: translateY(-45%);
+                -moz-transform: translateY(-45%);
+                -ms-transform: translateY(-45%);
+                -o-transform: translateY(-45%);
+            }
+        /*
+            ========================
+                Event-Slick-JS-CSS
+            ========================
+        */
+    /*
+        ===============================
+            Event-Part-Media-CSS-End
+        ===============================
+    */
+    /*
+        =================================
+            About-Part-Media-CSS-Start
+        =================================
+    */
+        #about {
+            padding-bottom: 60px;
+        }
+        .about_bg {
+            margin: 0;
+        }
+        .about_text {
+            border: 5px solid #dbe5f3;
+            position: static;
+            padding: 35px 10px 30px 15px;
+            border-top: none;
+            text-align: justify;
+        }
+        .about_text h3 {
+            font-size: 30px;
+            text-align: center;
+        }
+        .about_text p {
+            width: 100%;
+            font-size: 15px;
+        }
+        .about_text .pera_two {
+            margin-top: 20px;
+        }
+        .about_text a {
+            font-size: 15px;
+            font-weight: 500;
+            padding: 12px 15px;
+        }
+    /*
+        ================================
+            About-Part-Media-CSS-End
+        ================================
+    */
+    /*
+        ===========================================
+            Responsibility-Part-Media-CSS-Start
+        ===========================================
+    */
+        #responsibility {
+            padding: 70px 0;
+        }
+        .responsibility_item {
+            padding: 20px 0;
+            margin-bottom: 20px;
+            border: 1px solid #e1e1e191;
+        }
+        .responsibility_tittle h3 {
+            font-size: 30px;
+        }
+    /*
+        ==========================================
+            Responsibility-Part-Media-CSS-End
+        ==========================================
+    */
+    /*
+        ====================================
+            Counter-Part-Media-CSS-Start
+        ====================================
+    */
+        .counter_item {
+            display: block;
+            text-align: center;
+            border: 1px solid #232759;
+            width: 50%;
+            margin: 0 auto 25px auto;
+            padding: 15px;
+        }
+        .counter_item .count_icon {
+            margin-bottom: 15px;
+        }
+        .counter_item .count_icon i {
+            font-size: 45px;
+        }
+        .counter_item .count_text {
+            margin-left: 0;
+        }
+        .counter_item .count_text h4 {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+        .counter_item .count_text p {
+            font-size: 20px;
+        }
+    /*
+        ==================================
+            Counter-Part-Media-CSS-End
+        ==================================
+    */
+    /*
+        =======================================
+            Recent-Job-Part-Media-CSS-Start
+        =======================================
+    */
+        #recent_job {
+            padding: 80px 0;
+        }
+        .job_card{
+            padding: 30px 15px;
+            margin-bottom: 25px;
+        }
+        .recent_job_tittle h3{
+            font-size: 35px;
+        }
+        .job_card .card_item .card_logo {
+            height: auto;
+            line-height: 0;
+        }
+        .job_card .card_item .card_logo img {
+            height: 80px;
+            width: 100px !important;
+            line-height: 0;
+            margin: 0 auto;
+            display: block;
+        }
+        .job_card .card_text h3 a {
+            font-size: 15px;
+            margin: 25px 0 15px 0;
+        }
+        .job_card .card_text .job_btn {
+            font-size: 15px;
+            padding: 10px 15px;
+        }
+        .sec_row {
+            margin-top: 0px;
+        }
+        .recent_jobs_btn {
+            margin-top: 30px;
+        }
+        .recent_jobs_btn a {
+            font-size: 15px;
+            padding: 10px 15px;
+        }
+    
+    /*
+        =====================================
+            Recent-Job-Part-Media-CSS-End
+        =====================================
+    */
+    /*
+        =====================================
+            Gallery-Part-Media-CSS-Start
+        =====================================
+    */
+        .gallery_btn {
+            margin-bottom: 55px;
+        }
+        .gallery_btn button {
+            font-size: 15px;
+            padding: 13px;
+            margin: 0 10px 15px 0;
+        }
+        .gallery_item {
+            margin-bottom: 20px !important;
+        }
+        .item_down {
+            margin-bottom: 0;
+        }
+        .gallery_videos {
+            height: 340px;
+            width: 100%;
+        }
+    /*
+        =====================================
+            Gallery-Part-Media-CSS-End
+        =====================================
+    */
+    /*
+        =========================================
+            Scholarship -Part-Media-CSS-Start
+        =========================================
+    */
+        #scholarship {
+            background-size: contain;
+            padding: 80px 0 60px 0;
+        }
+        .scholarship_text h2 {
+            font-size: 20px;
+            line-height: 25px;
+        }
+        .scholarship_text p {            
+            font-size: 15px;
+            text-align: justify;
+            margin: 25px 0 30px 0;
+        }
+        .scholarship_text a {
+            font-size: 15px;
+            padding: 10px 15px;
+        }
+    /*
+        =======================================
+            Scholarship -Part-Media-CSS-End
+        =======================================
+    */
+    /*
+        =================================
+            News-Part-Media-CSS-Start
+        =================================
+    */
+        .news_tittle h3{
+            font-size: 40px;
+        }
+        .news_main_item {
+            margin-bottom: 25px;
+        }
+        .news_main_item:hover {
+            box-shadow: 0 0 5px #0000006b;
+        }
+        .bio_info h6 {
+            font-size: 13px;
+        }
+        .bio_info p {
+            font-size: 12px;
+        }
+        .review {
+            margin-top: 0;
+        }
+        .review a {
+            margin-top: 9px;
+        }
+
+        .card_content h3 {
+            font-size: 16px;
+        }
+        .card_content p {
+            font-size: 14px;
+            margin: 15px 0 25px 0;
+        }
+    /*
+        ================================
+            News-Part-Media-CSS-End
+        ================================
+    */
+    /*
+        ===================================
+            Footer-Part-Media-CSS-Start
+        ===================================
+    */
+    #footer {
+        padding-bottom: 50px;
+    }
+    .single_wrap {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .single_wrap_text p {
+        font-size: 14px;
+    }
+    .single_wrap_text ul{
+        margin-bottom: 0 !important;
+    }
+    .single_wrap_text ul li {
+        display: block;
+        margin-right: 0px;
+    }
+    .single_wrap_text ul li a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .single_wrap_text ul li a::after {
+        height: 1px;
+    }
+    .single_wrap .single_wrap_tittle h3 {
+        margin-bottom: 25px;
+    }
+    .single_wrap_text h5 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .single_list {
+        text-align: left;
+        padding-left: 30px;
+        margin-bottom: 0;
+    }
+  
+    .footer_bottom_text h4 {
+        font-size: 15px;
+    }
+/*
+    ===================================
+        Footer-Part-Media-CSS-End
+    ===================================
+*/
+
+
+    
+}
+@media (max-width: 575.98px) {
+    /*
+        ==========================
+            Menu-Part-Media-CSS
+        ==========================
+    */
+    .navbar {
+        padding: 10px;
+    }
+    .brand_logo {
+        width: 220px;
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+    .navbar .navbar-toggler {
+        color: #000;
+        border: none;
+        padding: 0;
+        font-size: 30px;
+        margin-bottom: 15px;
+        margin-right: 20px;
+    }
+    .navbar-nav {
+        margin: 20px 0 0 0;
+        border: 1px solid #c6c0c082;
+    }
+    .nav-item{
+        margin: 10px 0;
+    }
+    .nav-link {
+        font-size: 16px;
+        margin: 0 0 0 20px;
+        padding: 0 !important;
+        line-height: 30px;
+    }
+    .nav-link::before {
+        position: static;
+    }
+    .nav-item:hover .nav-link {
+        background: none !important;
+    }
+    /*
+        ==========================
+            Menu-Part-Media-CSS
+        ==========================
+    */
+    /*
+        ==================================
+            Banner-Part-Media-CSS-Start
+        ==================================
+    */
+    .banner_slick_overlay {
+        padding: 150px 0;
+    }
+    .social_icon {
+        position: absolute;
+        top: 370px;
+        left: 50%;
+        text-align: center;
+        transform: translateX(-50%);
+    }
+    .social_icon ul li {
+        display: inline-block;
+        margin: 10px;
+    }
+    .social_icon ul li a {
+        font-size: 25px;
+        margin: 0;
+    }
+    .social_icon ul li a i {
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+    .social_icon ul li a:hover .fa-facebook {
+        border: none;
+    }
+    .social_icon ul li a:hover .fa-twitter {
+        border: none;
+    }
+    .social_icon ul li a:hover .fa-pinterest {
+        border: none;
+    }
+    .social_icon ul li a:hover .fa-youtube {
+        border: none;
+    }
+    .banner_text h1 {
+        font-size: 45px;
+    }
+    .banner_text h3 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .banner_text p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        padding-bottom: 25px;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+    .banner_btn a {
+        background: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        color: #2a2424;
+        padding: 10px 15px;
+        text-transform: uppercase;
+        margin-right: 5px;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+    }
+    .banner_slick_slide .slick-dots {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        top: auto;
+        right: auto;
+    }
+    .banner_slick_slide .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .banner_slick_slide ul li button {
+        height: 20px;
+        width: 20px;
+        margin-bottom: 0;
+    }
+/*
+    =================================
+        Banner-Part-Media-CSS-End
+    =================================
+*/
+/*
+        ================================
+            Event-Part-Media-CSS-Start
+        ================================
+    */  
+    #event {
+        padding: 20px 0 100px 0;
+    }
+    .slide_animation {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+    .event_content {
+        background: #3b60c9;
+        padding: 15px 15px 25px 15px;
+        margin-bottom: 50px;
+    }
+    .event_img {
+        margin-bottom: 30px;
+    }
+    .event_img .event_date {
+        margin-top: 10px;
+        padding: 10px 0;
+        background: #fff;
+        box-shadow: 0 5px 6px #00000087;
+    }
+    .event_img .event_date h4 {
+        color: #3a3b3c;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .event_text .counter .event_counter_item {
+        margin-right: 10px;
+    }
+    .counter .event_counter_item h4 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .counter .event_counter_item h5 {
+        font-size: 14px;
+        font-weight: 700;
+        background: #161F37;
+        color: #fff;
+        padding: 10px 8px;
+        margin-top: 5px;
+        border: 1px solid #fff;
+    }
+    .counter h6 {
+        margin-top: 38px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .event_text h3 {
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .event_text p {
+        font-size: 13px;
+        width: 100%;
+        line-height: 18px;
+        margin: 20px 0;
+    }
+    .event_btn a {
+        font-size: 13px;
+        padding: 10px;
+        font-weight: 500;
+    }
+    .event_content .event_tittle {
+        position: static;
+        top: 0;
+        right: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .event_content .event_tittle h5 {
+        font-size: 15px;
+        font-weight: 600;
+        color: #000;
+        background: #fff;
+        text-align: center;
+        padding: 10px 0;
+        box-shadow: none;
+    }
+    /*
+        ========================
+            Event-Slick-JS-CSS
+        ========================
+    */
+        .prev {
+            background: #5481ff;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 700;
+            color: #fff;
+            position: absolute;
+            bottom: 60px;
+            right: 45px;
+            z-index: 1111;
+            transform: translateY(-45%);
+            -webkit-transform: translateY(-45%);
+            -moz-transform: translateY(-45%);
+            -ms-transform: translateY(-45%);
+            -o-transform: translateY(-45%);
+            transition: .4s;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -ms-transition: .4s;
+            -o-transition: .4s;
+        }
+
+        .next {
+            background: #5481ff;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 700;
+            color: #fff;
+            position: absolute;
+            bottom: 60px;
+            right: 10px;
+            z-index: 1111;
+            transition: .4s;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -ms-transition: .4s;
+            -o-transition: .4s;
+            transform: translateY(-45%);
+            -webkit-transform: translateY(-45%);
+            -moz-transform: translateY(-45%);
+            -ms-transform: translateY(-45%);
+            -o-transform: translateY(-45%);
+        }
+    /*
+        ========================
+            Event-Slick-JS-CSS
+        ========================
+    */
+/*
+    ===============================
+        Event-Part-Media-CSS-End
+    ===============================
+*/
+/*
+    ======================================
+        Gallery-Part-Media-CSS-Start
+    ======================================
+*/
+    .gallery_btn button {
+        margin-right: 15px;
+    }
+/*
+    ==================================
+        Gallery-Part-Media-CSS-End
+    ==================================
+*/
+/*
+    =========================================
+        Scholarship-Part-Media-CSS-Start
+    =========================================
+*/
+    .scholarship_text h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .scholarship_text p {
+        font-size: 18px;
+    }
+    .scholarship_text a {
+        font-size: 18px;
+        padding: 12px 15px;
+    }
+/*
+    =======================================
+        Scholarship-Part-Media-CSS-End
+    =======================================
+*/
+/*
+    ===================================
+        News-Part-Media-CSS-Start
+    ===================================
+*/
+    .news_main_item {
+        margin-bottom: 30px;
+    }
+    .news_main_item .main_blog {
+        top: 170px;
+    }
+    .review {
+        margin-left: 140px;
+        margin-top: 5px;
+    }
+/*
+    ===============================
+        News-Part-Media-CSS-End
+    ===============================
+*/
+/*
+    ===================================
+        Footer-Part-Media-CSS-Start
+    ===================================
+*/
+    #footer {
+        padding: 100px 0 0 0;
+    }
+    .single_wrap {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .single_wrap_tittle{
+        text-align: center;
+    }
+    .wrap_tittle_ul h3 {
+        position: relative;
+        display: inline-block;
+    }
+    .wrap_tittle_ul h3::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background: #fff;
+    }
+    .wrap_link {
+        margin-left: 15px;
+    }
+    .wrap_university {
+        margin-left: 40px;
+        text-align: left;
+    }
+/*
+    ===================================
+        Footer-Part-Media-CSS-End
+    ===================================
+*/
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
